@@ -1,0 +1,96 @@
+#one_goods{
+    width:95%;
+    height: 77%;
+    display: inline-flex;
+    position:relative;
+    left: 15px;
+    top: 20px;
+    margin: 20px;
+    border: 2px solid #E8E8E8;
+}
+/*图片*/
+#image{
+    width:30%;
+    height: 100%;
+    display: inline-block;
+}
+#image img{
+    width:400px;
+    height:400px;
+    position:relative;
+    left:80px;
+    top:60px;
+}
+/*商品信息*/
+#goods_info{
+    width:50%;
+    height:100%;
+    position: relative;
+    left: 200px;
+    top:40px;
+}
+/*商品名称*/
+#goods_name{
+    width:100%;
+    height:10%;
+    position:relative;
+    display: inline-block;
+    font-weight: bold;
+}
+/*商品简介*/
+#goods_introduction{
+    width:100%;
+    height:10%;
+    position:relative;
+    display: inline-block;
+    font-weight: bold;
+}
+/*商品价格*/
+#goods_price{
+    width:100%;
+    height:10%;
+    position:relative;
+    display: inline-block;
+}
+#goods_price span {
+    font-size: 30px;
+    color: #FF0036;
+    font-weight: bolder;
+    font-family: Arial,serif;
+}
+/*商品库存*/
+#goods_count{
+    width:100%;
+    height:10%;
+    position:relative;
+    display: inline-block;
+}
+/*选择个数*/
+#select_number{
+    width:100%;
+    height:10%;
+    position:relative;
+    display: inline-block;
+}
+/*加入购物车*/
+#goods_buy{
+    width:100%;
+    height:10%;
+    position:relative;
+    display: inline-block;
+}
+#goods_buy button{
+    width: 150px;
+    height: 40px;
+    position:relative;
+    left: 20px;
+    top: 80px;
+    background: linear-gradient(90deg, rgb(255, 203, 0), rgb(255, 148, 2));
+    box-shadow: rgba(255, 203, 0, 0.2) 0px 9px 13px 0px;
+    vertical-align: top;
+}
+#goods_buy button span {
+    display: inline; font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*	background-color: #FA8BFF;
+        background-image: linear-gradient(225deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);*/
+}
+
+/* 头部 */
+#head {
+    width:1440px;
+    height: 80px;
+    background-color: #454542;
+    position: relative;
+    top:-5px;
+    /* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+    height: 80px;
+    width: 300px;
+    position: absolute;
+    margin-left: 20px;
+    /* border: 1px solid blue; */
+}
+
+#Logo img {
+    height: 80px;
+    width: 300px;
+}
+
+/* 超链接部分 */
+#Super_link {
+    height: 80px;
+    width: 891px;
+    position: relative;
+    left: 500px;
+    /* border: 1px solid blue; */
+}
+
+#head_Super_link {
+    position: relative;
+    height: 50px;
+    width: 920px;
+    top:5px;
+    /* border: 1px solid red; */
+    margin: 5px 0px;
+
+}
+
+#head_Super_link div {
+    position: relative;
+    float: left;
+    margin: 0px 5px;
+    top: 20px;
+}
+
+#now_user{
+    margin-right: 10px;
+    position:relative;
+    font-size: 17px;
+    color: #d30505;
+}
+
+#head_Super_link img {
+    height: 20px;
+    width: 20px;
+}
+
+#head_Super_link a {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    line-height:25px;
+}

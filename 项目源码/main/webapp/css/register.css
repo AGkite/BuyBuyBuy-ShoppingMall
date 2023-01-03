@@ -1,0 +1,83 @@
+body{
+    background-size: cover;
+    /*background: url("/img/Shopping.png") no-repeat fixed;*/
+}
+#register_window{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 35%;
+    top: 7%;
+    width: 33%;
+    height: 56%;
+
+}
+#reg_window{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 宋体, serif;
+    font-size: 3em;
+    font-weight: bolder;
+    /*border: 3px solid ghostwhite;*/
+    border-image: initial;
+}
+form{
+    height: 100%;
+}
+p{
+    font-size:40px;
+    margin:10px;
+}
+#msg{
+    position: relative;
+    left: 160px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #c00808;
+}
+.reg_input{
+    float:left;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    left:20px;
+}
+.reg_left{
+    font-size: 22px;
+    height: 100%;
+    float: left;
+}
+.reg_input input{
+    height: 80%;
+    float: left;
+}
+#reg_code_img{
+    margin: 0;
+    width: 150px;
+    position: relative;
+    left: 335px;
+    top: -45px;
+}
+.reg_tip{
+    height:10px;
+}
+#submit_button{
+    position:absolute;
+    left:15px;
+    width:50%;
+    height:30px;
+}
+#submit_button input{
+    font-size: 30px;
+    width: 230px;
+    height: 51px;
+    background-color: #ff6a00;
+    position: absolute;
+    top: 4px;
+    left: 112px;
+}
