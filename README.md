@@ -1,6 +1,10 @@
 # BuyBuyBuy-ShoppingMall
 
-**JavaWeb-买买买购物网**
+**买买买购物网**
+
+JavaWeb项目，使用jsp+css+javascript实现页面展示，servlet接收处理请求，maven管理导入依赖。
+
+---
 
 ## 购物网功能：
 
