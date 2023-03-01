@@ -105,4 +105,4 @@ JavaWeb项目，使用jsp+css+javascript实现页面展示，servlet接收处理
 
 ## 效果演示
 
-http://120.76.43.48:8080/shopping/
+http://120.76.43.48:8080/shop/
